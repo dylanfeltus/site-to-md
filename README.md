@@ -182,4 +182,4 @@ Sites like [Anthropic](https://docs.anthropic.com/llms.txt), [Cloudflare](https:
 
 ## License
 
-MIT © [Stratus Labs](https://stratuslabs.co)
+MIT © [Stratus Labs](https://stratuslabs.io)
