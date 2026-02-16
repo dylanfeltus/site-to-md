@@ -1,0 +1,54 @@
+{
+  "name": "agent-ready",
+  "version": "0.1.0",
+  "description": "Make any website AI-agent-readable. Generates /llms.txt + clean markdown for every page.",
+  "type": "module",
+  "bin": {
+    "agent-ready": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "llms.txt",
+    "ai",
+    "agents",
+    "markdown",
+    "crawler",
+    "readability",
+    "seo",
+    "aeo"
+  ],
+  "author": "Stratus Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stratuslabs/agent-ready"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "turndown": "^7.2.0",
+    "jsdom": "^25.0.1",
+    "glob": "^11.0.0",
+    "chalk": "^5.3.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/turndown": "^5.0.5",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
