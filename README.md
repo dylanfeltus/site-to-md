@@ -2,6 +2,8 @@
 
 Make any website AI-agent-readable. Generates `/llms.txt` + clean markdown for every page.
 
+**Website:** [https://sitetomd.com](https://sitetomd.com)
+
 > `robots.txt` told search engines what to crawl. `llms.txt` tells AI agents what to read. This tool generates both automatically.
 
 ## Quick Start
